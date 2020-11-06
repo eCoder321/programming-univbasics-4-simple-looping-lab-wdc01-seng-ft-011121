@@ -23,4 +23,5 @@ def return_string_array(array)
   for i in array do
     new_array.push(i.to_s)
   end
+  return new_array
 end
